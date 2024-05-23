@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micheladas - Sabores</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    header .logo {
+      width: 50px;
+      margin-right: 10px;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    header nav ul li {
+      display: inline;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    #flavors {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .flavors-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .flavor {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .flavor img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .flavor h3 {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .flavor p {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+
+    .ingredients-list {
+      text-align: left;
+      font-size: 18px;
+      padding-left: 20px;
+      list-style-position: inside;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Micheladas Logo" class="logo">
+      <h1>Miche Michi</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#flavors">Sabores</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="flavors">
+    <h2>Variedad de Sabores</h2>
+    <div class="flavors-container">
+      <div class="flavor">
+        <img src="michelada_clasica.jpg" alt="Michelada Clásica">
+        <h3>Michelada Clásica</h3>
+        <p><strong>Precio:</strong> $3.99</p>
+        <p><strong>Ingredientes:</strong></p>
+        <ul class="ingredients-list">
+          <li>Cerveza</li>
+          <li>Jugo de limón</li>
+          <li>Salsa inglesa</li>
+          <li>Salsa picante</li>
+          <li>Sal</li>
+          <li>Hielo</li>
+        </ul>
+      </div>
+      <div class="flavor">
+        <img src="michelada_mango.jpg" alt="Michelada de Mango">
+        <h3>Michelada de Mango</h3>
+        <p><strong>Precio:</strong> $4.49</p>
+        <p><strong>Ingredientes:</strong></p>
+        <ul class="ingredients-list">
+          <li>Cerveza</li>
+          <li>Jugo de mango</li>
+          <li>Salsa inglesa</li>
+          <li>Salsa picante</li>
+          <li>Sal</li>
+          <li>Hielo</li>
+        </ul>
+      </div>
+      <!-- Agrega más divs .flavor según sea necesario -->
+    </div>
+  </section>
+</body>
+</html>
